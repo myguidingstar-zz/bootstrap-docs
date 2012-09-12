@@ -1,8 +1,9 @@
 # bootstrap-docs
 
 Examples for using bootstrap with Hiccup/Noir.
-Live demo at: http://bootstrap-docs.appspot.com/base-css
-
+Live demo:
+- [GAE based](http://bootstrap-docs.appspot.com/base-css)
+- [heroku based](http://bootstrap.banphim.net/base-css)
 ## Usage
 
 Run with Noir:
@@ -12,7 +13,7 @@ lein deps
 lein run
 ```
 or consult guidelines from https://github.com/gcv/appengine-magic if you want to
-deploy to Google AppEngine like the live demo.
+deploy to Google AppEngine like one of the live demos.
 
 ## TODO
 
