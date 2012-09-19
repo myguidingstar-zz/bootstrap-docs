@@ -4,6 +4,7 @@
 
 (server/load-views-ns "bootstrap-docs.controllers")
 
+(server/wrap-route :resources wrap-gzip)
 (server/add-middleware wrap-gzip)
 
 (defn -main [& m]
